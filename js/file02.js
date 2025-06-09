@@ -2,7 +2,7 @@ import { addRow } from "./functions.js";
 
 /**
  * Arreglo de frameworks con datos en formato de cadena.
- * Cada elemento contiene: nombre | fecha de lanzamiento | número de usuarios | porcentaje de popularidad
+ * cada elemento contiene: nombre | fecha de lanzamiento | número de usuarios | porcentaje de popularidad
  * @type {string[]}
  */
 const frameworks = [
