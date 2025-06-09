@@ -1,5 +1,7 @@
 "use strict";
 
+import { setTitle } from "./functions.js";
+
 /**
  * Muestra la notificación interactiva si el elemento con el ID 'toast-interactive' existe.
  * @function
@@ -27,6 +29,13 @@ const showVideo = () => {
 };
 
 (() => {
+    // Variables locales
+    const titulo = "Landing Page";
+    const subtitulo = "Bienvenido a la landing";
+
+    // Llama a setTitle
+    setTitle(titulo, subtitulo);
+
     showToast();
     showVideo();
 })();
